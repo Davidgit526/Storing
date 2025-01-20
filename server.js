@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 4000;
 
 // Create DynamoDB client using AWS SDK v3
 const ddbClient = new DynamoDBClient({
-    region: 'us-east-1', // e.g., 'us-east-1'
+    region: 'us-east-1', // e.g., 'ap-south-1'
     credentials: {
         accessKeyId: 'access key id', // Replace with your AWS access key
         secretAccessKey: 'secret access key' // Replace with your AWS secret key
